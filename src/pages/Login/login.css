@@ -1,0 +1,215 @@
+
+body{
+	
+	background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)),url("../../images/code \queens.jpg");
+	position: relative;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+	width: 100%;
+
+
+	--color-primary: #f3ac3a;
+	--color-primary-dark:#08007f;
+	--color-secondary:lightgray;
+	
+	--border-radius:30px;
+
+	font-family: Helvetica, sans-serif;
+
+}
+	.logo 
+	{
+	display: flex;
+	justify-self: start;
+	width: 200px;
+	height: 150px;
+
+	}
+.big-one 
+{
+	background-color:#f3ac3a;
+	border-radius: 30px;
+	width: 40%;
+	height: 73%;
+	margin: auto;
+	padding-top: 15px;
+	padding-bottom: 30px;
+	
+	
+}
+.container 
+{
+	width: 70%;
+	height: 70%;
+	margin: auto;
+	padding-top: 1.5rem;
+	box-shadow: 5px 5px 10px rgb(25, 26, 25);
+	background: white;
+	border-radius: 30px ;
+}
+.form-title
+{
+	font-size: 3rem;
+	font-weight: bold;
+	margin-bottom: 1.2rem;
+	text-align: center;
+	color:#231f20;
+}
+.form > *:first-child{
+	margin-top: 0;
+
+}
+.form > *:last-child{
+	margin-bottom: 1.5rem;
+}
+
+.form-input-group{
+	margin-bottom: 1rem;
+
+}
+.form-input{
+	
+	display: block;
+	width: 100%;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	border-radius: var(--border-radius);
+	border: 1px solid #dddddd;
+	background:white;
+	transition: background 0.2s, border-color 0.2s;
+	outline: none;
+}
+.form-input:focus{
+	background: #ffffff;
+	border: 2px rgba(35,31,32,255);
+
+}
+.form-button{
+	width: 100%;
+	padding: 10px 20px;
+	font-weight: bold;
+	color:white;
+	outline: none;
+	cursor: pointer;
+	background: darkgray;
+	font-size: 1.2rem;
+	border: none;
+	border-radius: 30px;
+	margin-top: 1rem;
+}
+.form-button:hover{ 
+	outline:none;
+}
+.form-button:active{
+	transform:scale(0.7);
+}
+.form-text {
+	text-align: left;
+	margin-top: 1rem;
+	margin-left: 1.3rem;
+
+}
+#form-link{
+	color: var(--color-primary-dark);
+	text-decoration: none;
+	cursor: pointer;
+
+}
+#form-link:hover{
+	text-decoration: underline;
+}
+.forgotpass {
+	margin-top: 1.2rem;
+	margin-left: 1.2rem;
+}
+
+/* MediaQuerries*/
+
+
+  @media only screen and (min-width:280px) and (max-width: 400px) {
+    .big-one {
+		width: 90%;
+       margin: auto;
+	   height: 70%;
+    }
+
+	.container {
+        width: 90%;
+		margin: auto;
+		height: 270px; 
+    }
+	.form-title{
+		font-size: 30px;
+	}
+	html{
+		font-size:small;
+	}
+	.logo{
+		width: 120px;
+		height: 80px;
+		margin-bottom: 2rem;
+	}
+	
+    
+
+    }
+
+	@media only screen and (min-width:401px) and (max-width: 567px) {
+		.big-one {
+			width: 90%;
+		   margin: auto;
+		   height: 60%;
+		}
+	
+		.container {
+			width: 90%;
+			margin: auto;
+			height: 270px; 
+		}
+		.form-title{
+			font-size: 30px;
+		}
+		html{
+			font-size: small;
+		}
+		.logo{
+			width: 150px;
+			height: 100px;
+			margin-bottom: 1.5rem;
+		}
+		
+	
+		}
+
+		@media only screen and (min-width: 568px) and (max-width: 780px) {
+			.big-one {
+				width: 90%;
+			   margin: 70px auto;
+			   height: 50%;
+			}
+		
+			.container {
+				width: 90%;
+				margin: auto;
+				height: 350px; 
+			}
+			.form-title{
+				font-size: 45px;
+			}
+			html{
+				font-size: large;
+			}
+			.logo{
+				width: 200px;
+				height: 150px;
+				margin-bottom: 1.5rem;
+		
+
+			}
+			
+		
+			}
+		
+	

@@ -1,0 +1,40 @@
+.container{
+width:  80%;
+height: 360px;
+margin: auto;
+}
+input{
+    margin-bottom: 8px;
+    
+}
+#btn{
+margin: 0px 0px 8px;
+}
+.cover
+{
+    background-color:#f3ac3a;
+    border-radius: 30px;
+    width: 45%;
+    height: 40%;
+    margin: auto;
+   padding-bottom:15px ;
+  
+
+}
+.form-control{
+    border-radius: 30px;
+   
+}
+.title
+{
+    color:#231f20;
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 1.5rem;
+}
+/*body{
+    font-family: Helvetica, sans-serif;
+
+}*/

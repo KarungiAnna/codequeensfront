@@ -1,0 +1,176 @@
+body{
+      
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)),url("../../images/code\ queens.jpg");
+	padding: relative;
+	position: relative;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+    font-family: Helvetica, sans-serif;
+	height: 100vh;
+	width: 100%;
+   
+  
+}
+	.logo 
+	{
+	display: flex;
+	justify-self: start;
+	width: 200px;
+	height: 150px;
+
+	}
+.form-space 
+{
+    background:#f3ac3a; 
+	border-radius: 30px;
+    width: 40%;
+    height: 75%;
+    margin: auto;
+    padding-top: 12px;
+	
+
+}
+ 
+.title
+{
+    font-size: 3rem;
+    font-weight: bold;
+	text-align: center;
+    margin-bottom: 1rem;
+	color:#231f20;
+
+}
+
+.form-area{
+    background-color: #fff;
+    margin: 20px auto;
+    padding: 25px 20px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px rgb(25, 26, 25);
+    width:  70%;
+    height: 370px;
+   
+}
+
+.form-space .item{
+   
+	border-radius: 20px;
+    margin-bottom: 15px;
+    padding: 10px 30px;
+    display: block;
+	width: 100%;
+	box-sizing: border-box;	
+	border: 1px solid #dddddd;
+	background:white;
+	transition: background 0.2s, border-color 0.2s;
+	outline: none;
+}
+#register-btn
+{
+    width: 100%;
+	padding: 10px 30px;
+	font-weight: bold;
+	color:white;
+	outline: none;
+	cursor: pointer;
+	background:darkgray;
+	font-size: 1.2rem;
+	border: none;
+	border-radius: 30px;
+	margin-top: 1.2rem;
+}
+#register-btn:active
+{
+    transform:scale(0.7);
+}
+
+
+/* MediaQuerries */
+
+@media only screen and (min-width:280px) and (max-width: 400px) {
+    .form-space {
+		width: 90%;
+        margin: auto;
+		height: 70%;
+    }
+
+	.form-area {
+        width: 85%;
+		margin: auto;
+		height: 320px; 
+    }
+	.logo{
+		width: 120px;
+		height: 80px;
+		margin-bottom: 1rem;
+
+	}
+
+	html{
+		font-size: small;
+	}
+	.title{
+		font-size: 30px;
+	}
+ 
+}
+
+@media only screen and (min-width:401px) and (max-width: 567px) {
+    .form-space {
+		width: 90%;
+        margin: auto;
+		height: 60%;
+    }
+
+	.form-area {
+        width: 70%;
+		margin: auto;
+		height: 320px; 
+    }
+	.logo{
+		width: 150px;
+		height: 100px;
+		margin-bottom: 1rem;
+
+	}
+
+	html{
+		font-size: small;
+	}
+	.title{
+		font-size: 40px;
+	}
+ 
+}
+@media only screen and (min-width:568px) and (max-width: 780px) {
+    .form-space {
+		width: 80%;
+        margin: auto;
+		height: 50%;
+    }
+
+	.form-area {
+        width: 70%;
+		margin: auto;
+		height: 360px; 
+    }
+	.logo{
+		width: 200px;
+		height: 150px;
+		margin-bottom: 2rem;
+
+	}
+
+	html{
+		font-size: 15px;
+	}
+	.title{
+		font-size: 40px;
+	}
+ 
+}
+
+
+
+
